@@ -1,0 +1,96 @@
+2025-03-12 12:27:55,538 - research_agent - INFO - Starting research on topic: Future of AI Agents? using model: gpt-4o-mini
+2025-03-12 12:27:55,538 - research_agent - ERROR - Error during research: run() got an unexpected keyword argument 'model_settings'
+2025-03-12 12:27:55,540 - research_agent - ERROR - Error displaying results: run() got an unexpected keyword argument 'model_settings'
+2025-03-12 12:29:53,010 - research_agent - INFO - Starting research on topic: Future of AI Agents? using model: gpt-4o-mini
+2025-03-12 12:29:53,011 - research_agent - ERROR - Error during research: __init__() got an unexpected keyword argument 'model'
+2025-03-12 12:29:53,012 - research_agent - ERROR - Error displaying results: __init__() got an unexpected keyword argument 'model'
+2025-03-12 12:30:10,018 - research_agent - INFO - Starting research on topic: Future of AI Agents? using model: gpt-4o-mini
+2025-03-12 12:30:10,019 - research_agent - ERROR - Error during research: __init__() got an unexpected keyword argument 'model'
+2025-03-12 12:30:10,020 - research_agent - ERROR - Error displaying results: __init__() got an unexpected keyword argument 'model'
+2025-03-12 12:30:53,073 - research_agent - INFO - Starting research on topic: Future of AI Agents? using model: gpt-4o-mini
+2025-03-12 12:30:54,320 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-03-12 12:30:58,130 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-03-12 12:30:58,565 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:30:59,557 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:31:00,277 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-03-12 12:31:02,641 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 500 Internal Server Error"
+2025-03-12 12:31:02,643 - openai._base_client - INFO - Retrying request to /responses in 0.381690 seconds
+2025-03-12 12:31:05,585 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:31:06,934 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-03-12 12:31:06,941 - research_agent - INFO - Research completed for topic: Future of AI Agents?
+2025-03-12 12:31:06,942 - research_agent - INFO - Research result: {"title": "Future of AI Agents", "summary": "The future of AI agents is poised for significant advancements across various domains, focusing on enhanced communication, learning, and ethical considerations.", "key_findings_count": 5, "sources_count": 0, "follow_up_questions_count": 3}
+2025-03-12 12:31:06,946 - research_agent - ERROR - Error displaying results: 'RunResult' object has no attribute 'messages'
+2025-03-12 12:31:11,739 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:34:08,016 - research_agent - INFO - Starting research on topic: Future of AI Agents? using model: gpt-4o-mini
+2025-03-12 12:34:08,028 - openai._base_client - INFO - Retrying request to /responses in 0.498868 seconds
+2025-03-12 12:34:09,513 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-03-12 12:34:11,098 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:34:18,647 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-12 12:34:22,277 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:34:42,248 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-03-12 12:34:42,253 - research_agent - INFO - Research completed for topic: Future of AI Agents?
+2025-03-12 12:34:42,255 - research_agent - INFO - Research result: {"title": "Future of AI Agents", "summary": "The future of AI agents is characterized by significant technological advancements, increased industry adoption, and ethical considerations. Key developments highlight platforms like OpenAI's new Responses API and Amazon's focus on agentic AI, enhancing automation capabilities. As AI agents evolve, they integrate deeper into both personal and business applications, emphasizing ethical practices and human-AI collaboration. Despite their potential, businesses face challenges in establishing viable models and ensuring ethical compliance.", "key_findings_count": 5, "sources_count": 6, "follow_up_questions_count": 5}
+2025-03-12 12:34:43,728 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:35:19,159 - research_agent - INFO - Starting research on topic: Future of AI Agents? using model: gpt-4o-mini
+2025-03-12 12:35:19,175 - openai._base_client - INFO - Retrying request to /responses in 0.498177 seconds
+2025-03-12 12:35:20,361 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:35:21,154 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-03-12 12:35:26,623 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:35:31,132 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-12 12:35:32,864 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:35:39,629 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-03-12 12:35:39,633 - research_agent - INFO - Research completed for topic: Future of AI Agents?
+2025-03-12 12:35:39,635 - research_agent - INFO - Research result: {"title": "Future of AI Agents", "summary": "The future of AI agents is characterized by rapid technological advancements, widespread industry adoption, and a focus on ethical development and human oversight, with predictions pointing towards proactive, emotionally intelligent, and multimodal capabilities.", "key_findings_count": 5, "sources_count": 7, "follow_up_questions_count": 5}
+2025-03-12 12:35:44,212 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:38:10,545 - research_agent - INFO - Starting research on topic: Future of AI Agents? using model: gpt-4o-mini
+2025-03-12 12:38:10,562 - openai._base_client - INFO - Retrying request to /responses in 0.389154 seconds
+2025-03-12 12:38:12,096 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-03-12 12:38:13,118 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:38:14,149 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:38:21,937 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-12 12:38:25,551 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:38:31,141 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-03-12 12:38:31,143 - research_agent - INFO - Research completed for topic: Future of AI Agents?
+2025-03-12 12:38:31,143 - research_agent - INFO - Research result: {"title": "The Future of AI Agents: Trends and Implications for 2023 and Beyond", "summary": "In 2023, the landscape of AI agents has evolved rapidly, showcasing advancements that facilitate autonomy, integration with IoT, and enhanced collaboration with humans. AI agents are increasingly employed in various sectors such as customer service, manufacturing, and healthcare, aiming to augment human capabilities while addressing ethical concerns and potential security risks. The democratization of AI development through no-code platforms is fostering innovation, making it feasible for non-experts to create AI solutions. However, managing the balance between AI autonomy and human oversight is critical, particularly as these agents become more integrated into society and critical systems.", "key_findings_count": 10, "sources_count": 5, "follow_up_questions_count": 5}
+2025-03-12 12:38:36,733 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:41:05,221 - research_agent - INFO - Starting research on topic: Future of AI Agents? using model: gpt-4o-mini
+2025-03-12 12:41:05,236 - openai._base_client - INFO - Retrying request to /responses in 0.472546 seconds
+2025-03-12 12:41:07,256 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-03-12 12:41:10,892 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:41:17,857 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-12 12:41:22,362 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:41:53,698 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-03-12 12:41:53,705 - research_agent - INFO - Research completed for topic: Future of AI Agents?
+2025-03-12 12:41:53,707 - research_agent - INFO - Research result: {"title": "Future of AI Agents in 2023", "summary": "In 2023, the landscape of AI agents is marked by rapid advancements and widespread adoption across multiple industries. AI agents have evolved to execute complex tasks autonomously and collaborate effectively, transforming sectors such as retail, healthcare, and finance by enhancing operational efficiency and mitigating human error. Companies are increasingly recognizing the importance of these technologies, predicting substantial integration into their processes by 2026, driven by the potential for enhanced productivity and innovation.\n\nEmerging trends in AI agents include the development of proactive AI that anticipates user needs, hyper-personalization to enhance customer experience, and efforts to incorporate emotional intelligence for more empathetic interactions. Ethical considerations regarding transparency and accountability in AI decision-making processes are becoming essential, especially as collaboration between humans and machines expands. Despite these advancements, challenges such as job displacement and ethical dilemmas remain critical concerns that necessitate robust governance frameworks.", "key_findings_count": 5, "sources_count": 5, "follow_up_questions_count": 5}
+2025-03-12 12:41:59,123 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:45:16,784 - research_agent - INFO - Starting research on topic: Future of AI Agents? using model: gpt-4o-mini
+2025-03-12 12:45:16,792 - openai._base_client - INFO - Retrying request to /responses in 0.453855 seconds
+2025-03-12 12:45:18,395 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-03-12 12:45:18,895 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:45:19,418 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:45:29,150 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-12 12:45:29,295 - openai._base_client - INFO - Retrying request to /responses in 0.460501 seconds
+2025-03-12 12:45:29,762 - openai._base_client - INFO - Retrying request to /responses in 0.883035 seconds
+2025-03-12 12:45:30,648 - openai.agents - ERROR - Error getting response: Connection error.
+2025-03-12 12:45:30,648 - research_agent - ERROR - Error during research: Connection error.
+2025-03-12 12:45:30,784 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:45:31,398 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:45:44,485 - research_agent - INFO - Starting research on topic: Future of AI Agents? using model: gpt-4o-mini
+2025-03-12 12:45:45,740 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-03-12 12:45:49,201 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:46:01,692 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-12 12:46:05,376 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:46:09,956 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-03-12 12:46:09,966 - research_agent - INFO - Research completed for topic: Future of AI Agents?
+2025-03-12 12:46:09,968 - research_agent - INFO - Research result: {"title": "The Future of AI Agents in 2025", "summary": "As of March 2025, AI agents are evolving rapidly, showing advancements in collaboration and specialization across various industries. With the rise of multi-agent networks, these AI systems are moving beyond isolated functionalities, focusing instead on interconnectivity for enhanced problem-solving. Ethical considerations remain crucial, ensuring that as these agents take on more responsibility in sensitive areas like healthcare and finance, they do so within frameworks that prioritize human oversight and ethical standards. Innovations from companies like Meta and Amazon exemplify the direction of AI agent development, pushing the boundaries of automation and interaction. Moreover, as AI increasingly contributes to climate action and customer service transformation, it signifies a broader societal shift towards integrating intelligent technologies into daily operations.", "key_findings_count": 10, "sources_count": 7, "follow_up_questions_count": 5}
+2025-03-12 12:46:11,535 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:46:52,240 - research_agent - INFO - Starting research on topic: Future of AI Agents? using model: gpt-4o-mini
+2025-03-12 12:46:52,257 - openai._base_client - INFO - Retrying request to /responses in 0.402997 seconds
+2025-03-12 12:46:53,833 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-03-12 12:46:58,440 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:47:02,458 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-12 12:47:04,685 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
+2025-03-12 12:47:16,257 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+2025-03-12 12:47:16,261 - research_agent - INFO - Research completed for topic: Future of AI Agents?
+2025-03-12 12:47:16,262 - research_agent - INFO - Research result: {"title": "The Future of AI Agents in 2025", "summary": "As of March 2025, the evolution of AI agents is reshaping the technological landscape. Significant advancements point towards AI agents acting as interdependent networks, tailored specifically for various industries, and serving as digital proxies that automate complex tasks for users. Major tech giants like Meta and Amazon are investing heavily in developing more sophisticated AI agents, focusing on enhancing user interactivity, autonomy, and industry-specific solutions. However, these advancements also bring to the forefront ethical considerations regarding human oversight and accountability in AI systems, prompting a need for strategies that balance innovation with ethical standards.", "key_findings_count": 10, "sources_count": 6, "follow_up_questions_count": 5}
+2025-03-12 12:47:21,754 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/traces/ingest "HTTP/1.1 204 No Content"
