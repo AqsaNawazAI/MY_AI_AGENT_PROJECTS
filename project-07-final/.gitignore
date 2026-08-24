@@ -1,0 +1,13 @@
+.zed
+.env
+.ruff_cache/
+venv/
+__pycache__/
+agent.thread
+agent.log
+toolbox.log
+logs/
+pyrightconfig.json
+playground/*
+_private/
+datastore/
