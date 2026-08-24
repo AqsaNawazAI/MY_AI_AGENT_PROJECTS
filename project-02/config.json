@@ -1,0 +1,55 @@
+{
+  "account": {
+    "login": 420400029,
+    "server": "XMGlobal-MT5 7",
+    "password": ""
+  },
+  "trading": {
+    "risk_percent": 1.0,
+    "max_trades": 3,
+    "max_daily_loss_percent": 3.0,
+    "lot_size": 0.01,
+    "auto_lot_sizing": true
+  },
+  "strategy": {
+    "score_threshold": 6.0,
+    "sl_atr_multiplier": 1.5,
+    "tp_atr_multiplier": 4.5,
+    "rr_ratio": 3.0,
+    "timeframes": [
+      "M15",
+      "H1",
+      "H4"
+    ],
+    "veto_rsi_overbought": 80,
+    "veto_rsi_oversold": 20,
+    "veto_adx_min": 20,
+    "tf_mode": "M15_H1_H4",
+    "min_confidence": 83,
+    "paper_mode": true,
+    "auto_close_minutes": 30,
+    "news_filter": true,
+    "strategy_mode": "COMBO",
+    "cci_close_level": 80,
+    "cci_close_enabled": true,
+    "ml_filter_enabled": false,
+    "ml_veto_margin": 0.1,
+    "breakeven_trigger_pct": 0.5
+  },
+  "symbols": [
+    "EURUSD",
+    "GBPUSD",
+    "USDJPY",
+    "USDCHF",
+    "AUDUSD",
+    "NZDUSD",
+    "USDCAD",
+    "EURJPY",
+    "GBPJPY",
+    "EURGBP",
+    "XAUUSD",
+    "XAGUSD"
+  ],
+  "scan_interval_seconds": 2,
+  "claude_api_key": ""
+}
