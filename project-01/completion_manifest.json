@@ -1,0 +1,31 @@
+{
+  "version": "ASTRA WORLD v21",
+  "dashboard_reference": "jarvis-style HUD reference supplied by user",
+  "dashboard_preserved_as_astar_world": true,
+  "voice_restored": true,
+  "computer_use": "GA Responses API computer tool",
+  "model": "qwen/qwen3.6-27b",
+  "legacy_preview_model_removed": true,
+  "screenshot_loop": true,
+  "multi_action_batches": true,
+  "windows_pyautogui_execution": true,
+  "verification": "python_compile_and_archive_integrity",
+  "dashboard_motion": true,
+  "visual_theme": "dark + cyan + subtle glow",
+  "animations": [
+    "rotating orbits",
+    "pulsing core",
+    "radar crosshair",
+    "panel sweep",
+    "scanline drift",
+    "status pulse",
+    "greeting glow",
+    "mouse parallax",
+    "live activity ticker"
+  ],
+  "provider": "groq",
+  "api_base": "https://api.groq.com/openai/v1",
+  "dashboard_preserved": true,
+  "voice_preserved": true,
+  "groq_fix": "Connection test now validates the selected model via /chat/completions; agent uses saved api_base."
+}

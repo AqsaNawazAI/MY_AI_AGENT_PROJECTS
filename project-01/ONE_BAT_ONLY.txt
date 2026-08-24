@@ -1,0 +1,6 @@
+ASTRA WORLD - ONE BAT ONLY
+
+Run: ASTRA_START.bat
+
+All previous .bat startup/install/runtime logic has been merged into this one file.
+Do not run another .bat file.

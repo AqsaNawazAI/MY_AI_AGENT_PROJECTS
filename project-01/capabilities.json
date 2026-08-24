@@ -1,0 +1,28 @@
+{
+  "version": "4.0-complete",
+  "voice_input": true,
+  "browser_runtime": "Chrome CDP 9222",
+  "windows_apps": true,
+  "websites": [
+    "gmail",
+    "google",
+    "chatgpt",
+    "whatsapp",
+    "youtube",
+    "drive",
+    "calendar",
+    "github"
+  ],
+  "file_creation": true,
+  "todo_lists": true,
+  "screenshots": true,
+  "keyboard_control": true,
+  "chatgpt_prompt": true,
+  "whatsapp_preparation": true,
+  "confirmations": [
+    "external_messages",
+    "shutdown",
+    "restart",
+    "lock"
+  ]
+}

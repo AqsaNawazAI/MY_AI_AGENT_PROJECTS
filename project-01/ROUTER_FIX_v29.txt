@@ -1,0 +1,11 @@
+ASTRA WORLD v29
+
+Built from the working v24 Groq dashboard.
+- Dashboard/frontend preserved.
+- One BAT preserved.
+- Greetings are hard-routed locally and never call Groq.
+- Common Google/YouTube/Notepad multi-step commands are local deterministic actions.
+- Groq vision is reserved for genuinely unknown/complex desktop tasks.
+- API version endpoint reports v29.
+
+V29 patch: frontend always sends commands to /api/command. The backend smart-router handles known commands locally and only sends unknown commands to the Groq vision agent. The AUTONOMOUS SCREEN AGENT checkbox remains a UI indicator and does not force every command through Groq.

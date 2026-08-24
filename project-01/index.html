@@ -1,0 +1,47 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ASTRA WORLD</title><link rel="stylesheet" href="/style.css">
+</head><body>
+<div class="scanlines"></div>
+<div class="hud">
+<header class="topbar">
+  <div class="brand">A.S.T.R.A.<span> WORLD</span></div>
+  <nav><a class="active">HOME</a><a>COMMAND CENTER</a><a id="navSettings">SETTINGS</a><a>ABOUT</a></nav>
+  <div class="online"><i></i><span id="status">SYSTEM ONLINE</span></div>
+</header>
+
+<main class="grid">
+  <aside class="leftcol">
+    <section class="panel diagnostics"><div class="paneltitle">SYS_DIAGNOSTICS</div>
+      <div class="gauges"><div class="gauge"><b id="cpuGauge">--%</b><span>CPU</span></div><div class="gauge"><b id="memGauge">--%</b><span>MEM</span></div><div class="gauge accent"><b id="stepGauge">--</b><span>STEPS</span></div></div>
+      <div class="tinyrow"><span>NET: <b>UPLINK ACTIVE</b></span><span>AI: <b>GROQ</b></span></div>
+    </section>
+    <section class="panel activity"><div class="paneltitle">CORE_ACTIVITY</div><div class="listen">LISTENING</div><div id="activityLog" class="activitylog"><div>15:36:08 <b>» LISTENING</b></div><div>15:36:09 <b>» READY</b></div><div>15:36:10 <b>» SYSTEM ONLINE</b></div></div></section>
+    <section class="panel statuspanel"><div class="paneltitle">SYSTEM STATUS</div><div class="statusline"><span>SYSTEM ONLINE</span><i></i></div><div class="statusline"><span>A.S.T.R.A. ACTIVE</span><i></i></div><div class="statusline"><span>MIC PERMISSION</span><i id="micDot"></i></div><div class="statusline"><span>AI CONNECTION</span><i id="apiDot"></i></div></section>
+  </aside>
+
+  <section class="centercol">
+    <div class="radar"><div class="orbit o1"></div><div class="orbit o2"></div><div class="orbit o3"></div><div class="core"><span>A</span></div><div class="crosshair"></div></div>
+    <div class="move">✦ MOVE</div>
+    <div class="greeting"><div id="greeting">Good Evening, Aqsa</div><small>ALL SYSTEMS OPTIMAL. AWAITING DIRECTIVE.</small><b>[ A.S.T.R.A. ]</b></div>
+    <section class="commandpanel">
+      <div class="consolehead"><span>COMMAND CENTER</span><span id="runtime">Browser Runtime: OFFLINE</span></div>
+      <div id="log" class="log"><div class="msg astra"><b>ASTRA</b><span>Ready. Tell me what you want to do.</span></div></div>
+      <div id="confirm" class="confirm hidden"><span id="confirmText"></span><button id="yes">CONFIRM</button><button id="no">CANCEL</button></div>
+      <div class="commandrow"><button id="mic" class="mic" title="Voice command">🎙</button><input id="cmd" placeholder="Speak or type your command…"><button id="send" class="send">RUN</button></div>
+    </section>
+  </section>
+
+  <aside class="rightcol">
+    <section class="panel location"><div class="paneltitle">LOCATION_TRACKING</div><div class="locbody"><div class="globe">◎</div><div><strong>WINDOWS</strong><span>LOCAL COMPUTER</span></div></div><div class="coords">LOCAL SESSION <b>ACTIVE</b></div></section>
+    <section class="panel chrono"><div class="paneltitle">CHRONOS_SYNC</div><div class="clock" id="clock">--:--<em>--</em></div><div class="date" id="date">---</div><div class="weatherline"><span>MEMORY <b id="memText">--%</b></span><span>AGENT <b id="agentText">ACTIVE</b></span></div></section>
+    <section class="panel syslog"><div class="paneltitle">SYSTEM_LOG // A.S.T.R.A. [ACTIVE]</div><div id="sideLog"><p>&gt; SYSTEM &gt; <span>passive mode. awaiting directive...</span></p><p>&gt; USER &gt; <span class="cyan">hello sir, what can I do for you?</span></p><p>&gt; A.S.T.R.A. &gt; <span class="cyan">ready for command...</span></p></div></section>
+  </aside>
+</main>
+
+<div class="bottomdock"><label><input id="agentMode" type="checkbox" checked> AUTONOMOUS SCREEN AGENT</label><div class="quick"><button data-cmd="Open Gmail">GMAIL</button><button data-cmd="Open WhatsApp">WHATSAPP</button><button data-cmd="Open ChatGPT">CHATGPT</button><button data-cmd="Create a file named project notes">CREATE FILE</button><button data-cmd="Make today's list: finish assignment, email mam, review project">TODAY'S LIST</button><button data-cmd="Take a screenshot">SCREENSHOT</button></div><button id="settingsBtn">SETTINGS</button></div>
+<div id="settings" class="settings hidden"><div class="settingsbox"><h3>ASTRA SETTINGS</h3><input id="apiBase" placeholder="https://api.groq.com/openai/v1"><input id="model" placeholder="qwen/qwen3.6-27b"><input id="apiKey" type="password" placeholder="Groq API key"><input id="maxSteps" type="number" min="1" max="40" value="20"><div><button id="saveSettings">SAVE SETTINGS</button><button id="testGroq">TEST GROQ</button><button id="closeSettings">CLOSE</button></div><small>Computer control uses Groq vision to inspect the screen and plan local mouse/keyboard actions. Your key is stored locally by ASTRA.</small></div></div>
+<footer>Developed By Aqsa Nawaz | AI Engineer</footer>
+<script src="/app.js"></script></div>
+</body></html>
